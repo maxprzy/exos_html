@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'whitedream';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./WhiteDreamPERSONALUSEONLY-Regular.otf) format('OpenType');
+}
+
+h1
+{
+	text-shadow: 10px -10px 6px purple;
+	margin-left: 30px;
+}
+
+p
+{
+	box-shadow: 0px 0px 20px red;
+	width: 500px;
+	height: 50px;
+	margin-left: 30px;
+}
+
+p + p
+{
+	box-shadow: -10px 10px 2px lightgreen;
+	margin-left: 70px;
+	margin-top: 100px;
+	font-family: 'whitedream';
+}
